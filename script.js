@@ -1,7 +1,8 @@
-const circle = require('./circles.js');
 const express = require('express');
 const app = exress();
-console.log(`The area of a circle of radius 4 is ${circle.area(4)}`);
+app.get('/', (request, response) => {
+    response.json({fisrt: "hi" });
+});
 app.listen(4555, () => {
     console.log("server started");
 });
