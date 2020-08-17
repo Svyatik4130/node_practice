@@ -1,0 +1,22 @@
+{
+  "name": "node_practice",
+  "version": "1.0.0",
+  "description": "practicing node js spmewhat",
+  "main": "script.js",
+  "scripts": {
+    "test": "node script.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Svyatik4130/node_practice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Svyatik4130/node_practice/issues"
+  },
+  "homepage": "https://github.com/Svyatik4130/node_practice#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
