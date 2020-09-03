@@ -1,10 +1,9 @@
 const users = [
-    {name: "rick", age: 320},
-    {name: "nick", age: 20},
-    {name: "svyat", age: 10},
-    {name: "slava", age: 30},
-    {name: "robert", age: 18}
+    { id: 1, name: 'Slavik', age: 23 },
+    { id: 2, name: 'Vova', age: 60 },
+    { id: 3, name: 'Alex', age: 40 },
 ];
+
 module.exports = {
-    users
-}
+    users,
+};
